@@ -1,0 +1,102 @@
+
+<section id="websites_presence_build" class="bg-section-level3">
+
+    <div>
+        <div class="container">
+                <div class="grid">
+                <div class="row text-left col-lg-offset-1">
+
+                    <img src="img/websites/presence.png" alt="Web Build" class="img-responsive pull-left"/>
+                </div>
+
+                <form name="buildForm" novalidate>
+
+                    <div class="row">
+                        <div class="form-group col-xs-8 " show-errors>
+                            <input type="email" class="form-control" name="email" ng-model="details.email" required
+                                   placeholder="Enter your email address"/>
+
+                            <p class="help-block" ng-if="buildForm.email.$error.required">The user's email is
+                                required</p>
+
+                            <p class="help-block" ng-if="buildForm.email.$error.email">The email address is invalid</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-10 " show-errors>
+                            <input type="text" class="form-control" name="companyName" ng-model="details.companyName"
+                                   required placeholder="Company or trading name"/>
+
+                            <p class="help-block" ng-if="buildForm.companyName.$error.required">Company name is
+                                required</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-2 ">
+                            <input type="text" class="form-control" name="companyIcon" ng-model="details.companyIcon"
+                                   required placeholder="Icon"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-4 ">
+                            <input type="text" class="form-control" name="backgroundImage"
+                                   ng-model="details.backgroundImage" required placeholder="Background Image"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 " show-errors>
+          <textarea type="text" class="form-control" name="companyDesc" rows="5"
+                    ng-model="details.companyDesc" required
+                    placeholder="Enter a description of your companies products or services."></textarea>
+
+                            <p class="help-block" ng-if="buildForm.companyName.$error.required">Description of your
+                                services is required</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-6 " show-errors>
+                            <input type="text" class="form-control" name="companyPhone" ng-model="details.companyPhone"
+                                   ng-pattern="/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/"
+                                   required placeholder="Company phone number"/>
+
+                            <p class="help-block" ng-if="buildForm.companyPhone.$error.required">Company phone number is
+                                required</p>
+
+                            <p class="help-block" ng-if="buildForm.companyPhone.$error.pattern">Must be a valid 10 digit
+                                phone number</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-6 " show-errors>
+                            <input type="text" class="form-control" name="companyFax" ng-model="details.companyFax"
+                                   ng-pattern="/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/"
+                                   placeholder="Company fax number"/>
+
+                            <p class="help-block" ng-if="buildForm.companyFax.$error.pattern">Must be a valid 10 digit
+                                fax number</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-xs-7 " show-errors>
+          <textarea type="text" class="form-control" name="companyAddr" rows="5"
+                    ng-model="details.companyAddr" required
+                    placeholder="Enter company address or contact details"></textarea>
+
+                            <p class="help-block" ng-if="buildForm.companyAddr.$error.required">Company contact details
+                                is required</p>
+                        </div>
+                    </div>
+
+
+                    <button class="btn btn-primary" ng-click="save()">Build</button>
+                    <button class="btn btn-link" ng-click="reset()">Reset</button>
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+

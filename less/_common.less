@@ -1,0 +1,86 @@
+//********** General
+
+//********** Text
+.text-highlight {
+  color: @brand-dark-grey;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.text-highlight-dark {
+  color: @brand-white;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+//********** Form Validation
+.form-group .help-block {
+  display: none;
+}
+
+.form-group.has-error .help-block {
+  display: block;
+}
+
+
+//********** Assets
+
+//********** Carousel
+.carousel-inner {
+  .item {
+    transition-property: opacity;
+  }
+
+  .item,
+  .active.left,
+  .active.right {
+    opacity: 0;
+  }
+
+  .active,
+  .next.left,
+  .prev.right {
+    opacity: 1;
+  }
+
+  .next,
+  .prev,
+  .active.left,
+  .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.carousel-control {
+  z-index: 2;
+}
+
+//********** Model Dialog
+.modal-content
+{
+  background-color: @brand-blue-light;
+}
+
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+//********** Upload Drag and Drop
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+
+
+
