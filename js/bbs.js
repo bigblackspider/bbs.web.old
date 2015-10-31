@@ -54,7 +54,7 @@ $(document).ready(function () {
             //********** Final
             event.preventDefault();
         });
-    }, 1000);
+    }, 2000);
     $(".service").hide();
 
     //********** Highlight the top nav as scrolling occurs
