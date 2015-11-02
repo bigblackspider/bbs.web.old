@@ -33,10 +33,13 @@ $(document).ready(function () {
 });
 
 (function ($) {
+    //todo Move this to a AngularJS controller so the bind is done when the page section is loaded by angular we may want to do this only in Angular.
+
+
     "use strict"; // Start of use strict
 
     //***********  Page Scroll Control
-    setTimeout(function(){
+    setTimeout(function () {
         $('a.page-scroll').bind('click', function (event) {
             //********** Init
             var $anchor = $(this);
@@ -44,7 +47,7 @@ $(document).ready(function () {
 
             //********** Only show required pages
             $(".service").hide();
-            $("section[id^="+ $anchor.attr('href').substring(1,6) + "]").show();
+            $("section[id^=" + $anchor.attr('href').substring(1, 6) + "]").show();
 
             //********** Scroll
             $('html, body').stop().animate({
@@ -54,7 +57,7 @@ $(document).ready(function () {
             //********** Final
             event.preventDefault();
         });
-    }, 2000);
+    }, 4000);
     $(".service").hide();
 
     //********** Highlight the top nav as scrolling occurs
