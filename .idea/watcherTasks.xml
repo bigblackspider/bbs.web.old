@@ -41,7 +41,7 @@
       </option>
       <option name="outputFromStdout" value="true" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="C:/Tools/webstorm/closure compiler/compiler.jar" />
+      <option name="program" value="$USER_HOME$/Tools/webstorm/closurecompiler/compiler.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />

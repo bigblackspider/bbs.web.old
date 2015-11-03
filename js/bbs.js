@@ -38,26 +38,6 @@ $(document).ready(function () {
 
     "use strict"; // Start of use strict
 
-    //***********  Page Scroll Control
-    setTimeout(function () {
-        $('a.page-scroll').bind('click', function (event) {
-            //********** Init
-            var $anchor = $(this);
-            var $target = $($anchor.attr('href'));
-
-            //********** Only show required pages
-            $(".service").hide();
-            $("section[id^=" + $anchor.attr('href').substring(1, 6) + "]").show();
-
-            //********** Scroll
-            $('html, body').stop().animate({
-                scrollTop: ($target.offset().top - 50)
-            }, 1250, 'easeInOutExpo');
-
-            //********** Final
-            event.preventDefault();
-        });
-    }, 4000);
     $(".service").hide();
 
     //********** Highlight the top nav as scrolling occurs
