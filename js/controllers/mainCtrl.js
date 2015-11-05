@@ -11,6 +11,10 @@
     //*************************************
     app.run(function ($rootScope) {
         $rootScope.$on("$includeContentLoaded", function (event, templateName) {
+
+            //********** Hide unused Pages
+            $(".service").hide();
+
             //********** A page has loaded then search for every page-scroll class
             $('a.page-scroll').each(
                 function () {
@@ -36,7 +40,7 @@
             )
         })
     });
-}())
+}());
 
 
 

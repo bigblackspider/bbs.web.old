@@ -3,13 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-//todo We need to rework this! Look at moving to Controller.  Do we need a plugin??
 
 
 $(document).ready(function () {
-    //********************
-    //*  Global Namespace
-    //********************
 
     //********** String Formatter
     if (!String.prototype.format) {
@@ -24,22 +20,6 @@ $(document).ready(function () {
         };
     }
 
-    //******************
-    //*  BBS Namespace
-    //******************
-    var bbs = function () {
-        //todo Create bbs global namespace with function to do init on child functions
-    }
-});
-
-(function ($) {
-    //todo Move this to a AngularJS controller so the bind is done when the page section is loaded by angular we may want to do this only in Angular.
-
-
-    "use strict"; // Start of use strict
-
-    $(".service").hide();
-
     //********** Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -52,12 +32,12 @@ $(document).ready(function () {
     });
 
     //********** Fit Text Plugin for Main Header
-    $("h1").fitText(
-        1.2, {
-            minFontSize: '20px',
-            maxFontSize: '50px'
-        }
-    );
+    /*$("h1").fitText(
+     1.2, {
+     minFontSize: '20px',
+     maxFontSize: '50px'
+     }
+     );*/
 
     //********** Offset for Main Navigation
     $('#mainNav').affix({

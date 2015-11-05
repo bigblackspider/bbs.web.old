@@ -5,11 +5,11 @@ $(document).ready(function () {
 
     //********** Setup Services
 
-   /* $("#websitesClick").click(function(){
-        $(".service").toggleClass("hide",true);
-        $("#websites").toggleClass("hide",false);
+    /* $("#websitesClick").click(function(){
+     $(".service").toggleClass("hide",true);
+     $("#websites").toggleClass("hide",false);
 
-    })*/
+     })*/
 
 
-})
+});

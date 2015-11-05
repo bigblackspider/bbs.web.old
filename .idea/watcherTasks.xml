@@ -20,7 +20,6 @@
         </array>
       </option>
       <option name="outputFromStdout" value="true" />
-      <option name="passParentEnvs" value="true" />
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
@@ -40,8 +39,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="true" />
-      <option name="passParentEnvs" value="true" />
-      <option name="program" value="$USER_HOME$/Tools/webstorm/closurecompiler/compiler.jar" />
+      <option name="program" value="C:/Tools/webstorm/closure compiler/compiler.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
@@ -60,7 +58,6 @@
         <array />
       </option>
       <option name="outputFromStdout" value="true" />
-      <option name="passParentEnvs" value="true" />
       <option name="program" value="C:/Tools/webstorm/html compressor/htmlcompressor-1.5.3.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />

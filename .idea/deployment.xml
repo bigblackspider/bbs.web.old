@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="d7cade5a-b371-4be9-b937-a01fc0cc4291">
+  <component name="PublishConfigData" serverName="BBS Dev" uploadOnCheckin="d7cade5a-b371-4be9-b937-a01fc0cc4291">
     <serverData>
-      <paths name="BBS Live Dev">
+      <paths name="BBS Dev">
         <serverdata>
           <mappings>
             <mapping deploy="/data/websites/dev/bbs" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
             <excludedPath local="true" path="$PROJECT_DIR$/less" />
           </excludedPaths>
         </serverdata>

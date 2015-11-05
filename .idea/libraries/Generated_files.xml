@@ -2,14 +2,20 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.js" />
-        <item url="file://$PROJECT_DIR$/js/index.min.js" />
-        <item url="file://$PROJECT_DIR$/js/bbs.min.js" />
-        <item url="file://$PROJECT_DIR$/js/directives/showErrors.min.js" />
-        <item url="file://$PROJECT_DIR$/js/controllers/webBuildCtrl.min.js" />
+        <item url="file://$PROJECT_DIR$/js/jquery.easing.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/wow.min.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/closure/closure.min.min.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/closure/closure.min.js" />
         <item url="file://$PROJECT_DIR$/js/cbpAnimatedHeader.min.js" />
         <item url="file://$PROJECT_DIR$/js/jquery.fittext.min.js" />
         <item url="file://$PROJECT_DIR$/js/classie.min.js" />
+        <item url="file://$PROJECT_DIR$/js/bbs.min.js" />
+        <item url="file://$PROJECT_DIR$/js/jquery.fittext.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/index.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/bbs.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/cbpAnimatedHeader.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/classie.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/index.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -18,14 +24,27 @@
       <root url="file://$PROJECT_DIR$/js/controllers/common.min.js" />
       <root url="file://$PROJECT_DIR$/js/controllers/common.min.js" />
       <root url="file://$PROJECT_DIR$/js/controllers/webBuildCtrl.min.js" />
-      <root url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.js" />
-      <root url="file://$PROJECT_DIR$/js/index.min.js" />
-      <root url="file://$PROJECT_DIR$/js/bbs.min.js" />
-      <root url="file://$PROJECT_DIR$/js/directives/showErrors.min.js" />
       <root url="file://$PROJECT_DIR$/js/controllers/webBuildCtrl.min.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/directives/showErrors.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/directives/showErrors.min.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/controllers/mainCtrl.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery.easing.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/wow.min.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/closure/closure.min.min.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/closure/closure.min.js" />
       <root url="file://$PROJECT_DIR$/js/cbpAnimatedHeader.min.js" />
       <root url="file://$PROJECT_DIR$/js/jquery.fittext.min.js" />
       <root url="file://$PROJECT_DIR$/js/classie.min.js" />
+      <root url="file://$PROJECT_DIR$/js/bbs.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery.fittext.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/index.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/bbs.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/cbpAnimatedHeader.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/classie.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/index.min.js" />
     </CLASSES>
     <SOURCES />
   </library>
