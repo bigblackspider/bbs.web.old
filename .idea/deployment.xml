@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="BBS Dev" uploadOnCheckin="d7cade5a-b371-4be9-b937-a01fc0cc4291">
-    <option name="myUploadOnCheckinName" value="BBS Dev" />
+  <component name="PublishConfigData" serverName="dev" persistUploadOnCheckin="false" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="dev">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/websites/dev/bbs" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/less" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="live">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/websites/live/bbs" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/less" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
   </component>
 </project>

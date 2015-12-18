@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0019d54c-fa1c-42b6-a069-bcc889564246" name="dev" url="http://bbs-web.cloudapp.net/dev/bbs">
+        <fileTransfer host="bbs-web.cloudapp.net" port="22" accessType="SFTP" password="dfecdfc6df9bdfdadfdadfcfdfd8df9adf8bdf8bdf8b" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="cc94e03b-617b-4ae2-bb2f-38b969493bfe" name="live" url="http://bbs-web.cloudapp.net/live/bbs">
+        <fileTransfer host="bbs-web.cloudapp.net" port="22" accessType="SFTP" password="dfecdfc6df9bdfdadfdadfcfdfd8df9adf8bdf8bdf8b" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
