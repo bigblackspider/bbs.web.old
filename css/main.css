@@ -76,6 +76,38 @@
   color: #222;
   border-color: #222;
 }
+
+footer {
+  position: absolute;
+  top: 650px;
+  width: 100%;
+  color: #636363;
+  font-size: x-small;
+}
+
+footer a {
+  color: #636363;
+}
+
+footer a:hover {
+  color: #636363;
+}
+
+footer a:focus {
+  color: #636363;
+}
+
+@media (min-height: 768px) {
+  footer {
+    top: 750px;
+  }
+}
+
+@media (min-height: 900px) {
+  footer {
+    top: 875px;
+  }
+}
 html,
 body {
   height: 100%;
